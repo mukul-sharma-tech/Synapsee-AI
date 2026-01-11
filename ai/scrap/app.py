@@ -103,7 +103,7 @@ def scrape_product():
         return jsonify({"error": "Please provide a product name"}), 400
 
     query = product.replace(" ", "+")
-    AMAZON_URL = f"https://www.amazon.in/s?k={query}"
+    AMAZON_URL = f"https://www.amazon.in/s?k={query}&s=exact-aware-popularity-rank&ds=v1%3AG9y7mY3p1vNiRmwHvcqLm%2BssXBXV10lC6B0gfEhILME&qid=1768154452&ref=sr_st_exact-aware-popularity-rank"
     FLIPKART_URL = f"https://www.flipkart.com/search?q={query}"
 
     final_data = {
