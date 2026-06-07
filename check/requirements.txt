@@ -5,3 +5,4 @@ requests
 ollama
 groq
 fpdf2
+ddgs
