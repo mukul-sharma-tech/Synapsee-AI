@@ -1,0 +1,7 @@
+streamlit
+duckduckgo_search
+python-dotenv
+requests
+ollama
+groq
+fpdf2
